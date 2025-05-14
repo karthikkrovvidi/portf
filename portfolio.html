@@ -2,77 +2,230 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Portfolio </title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <link rel="stylesheet" href="style.css">
+
 </head>
-<link rel="stylesheet" href="portfolio.css">
 <body>
-  <header>
-      <h2>MY PORTFOLIO</h2>
-      <nav>
-        <ul>
-          <li><a href="#Home">Home</a></li>
-          <li><a href="#Bio">Bio</a></li>
-          <li><a href="#PortFolio">PortFolio</a></li>
-          <li><a href="#Skills">Skills</a></li>
-          <li><a href="#Contact">Contact</a></li>
-        </ul>
-      </nav>
-      
-  </header>
-  <main>
-   <section id="Home">
-         <h2>K KARTHIK</h2>
-         <p>I BELIEVE IN<br><br>
+   
 
-          <b>EAT(); SLEEP(); GAME(); REPEAT();</b></p>
-          <img src="982460-dhini.jpg">
-   </section>
-   <section id="Bio">
-    <h2>About</h2>
-    <pre>
-      I am a passionate Engineer with a degree in BioMedical Engineering. My very first experience
-with code was at the time when I started my own blog. My struggle to customize the blog pages
-introduced me to HTML & CSS. Sooner, the excitment of having the power to structure pages on
-my own sounded amazing and that’s when I decided to purse Web development.Recently, I learnt
-Full Stack Development. I have knowledge of HTML, CSS and JavaScript, Java, C++ and Data Structures.
-Rational thought process and goal-oriented planning are my strengths.I am currently on the look out
-for a challenging role to build products that make a difference.
-    </pre>
+<header>
 
-   </section>
-   <section id="PortFolio">
-         <h2>MY PORTFOLIO</h2>
-         <PRE>
-          Some of my best projects so far.
+    <div id="menu" class="fas fa-bars"></div>
 
-<b>PERSONAL BLOG </b>- A blog where I pen my own thoughts on programming
+    <nav class="navbar">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#portfolio">Portfolio</a>
+        
+        <a href="#contact">Contact</a>
+    </nav>
 
-<b>TIC TAC TOE</b> - Complete Tic Tac Toe game along with GUI using Java
+    <div id="theme-toggler" class="fas fa-moon"></div>
 
-<b>TIME TABLE GENERATOR</b> - A web application for automatic time table generation
-         </PRE>
-   </section>
-   <section id="Skills">
-    <h2>TECHNICAL SKILLS</h2>
-    <ul>
-      <li>HTML</li>
-      <li><progress  value="90" max="100" ></progress></li>
-      <li>CSS</li>
-      <li><progress  value="90" max="100" ></progress></li>
-      <li>JAVASCRIPT</li>
-      <li><progress  value="90" max="100" ></progress></li>
-    </ul>
-   </section>
-   <section id="Contact">
-          <h2>DON'T CONTACT ME!</h2>
-          <p>📱-630385658</p>
-          <p>📧-abc@gmail.com</p>
-   </section>
-  </main>
-  <footer>
-       <p>© 2023 My Portfolio. All rights reserved.</p>
-  </footer>
+</header>
+
+
+
+<section class="home" id="home">
+
+    <div class="image">
+        <img src="https://yt3.ggpht.com/faAdNZMcrzwi1k6QJxxBKeBq06C2Bpkbyki8w3d5VNL_db20AEy9sK04gPZevgEo4ecE6biTxaI=s600-c-k-c0x00ffffff-no-rj-rp-mo" alt="">
+    </div>
+
+    <div class="content">
+        <span class="hello">Hello</span>
+        <h3> I'M <span>KARTHIK</span> </h3>
+
+        <h4>I am  <span class="type">
+            <span>
+              <span>Student</span>
+              <span>Developer</span>
+              <span>pursuing B.Tech</span>
+              <span>Dream Archiver</span>
+            </span>
+          </span>
+        </h4>
+
+        <p><b>Meet Karthik</b>, a dynamic individual who seamlessly blends 
+            his life as a student with his passion for development. 
+            With a keen interest in technology and a solid educational
+             foundation, Karthik is equipped with a diverse skill set 
+             that spans across various programming languages and development
+              tools. Dive deeper into Karthik’s world by exploring the
+               About section for a detailed insight into his journey and aspirations.</p>
+        <a href="#about" class="btn"><center>about me</center></a>
+    </div>
+
+</section>
+
+
+
+<section class="about" id="about">
+
+    <h1 class="heading"> about <span>me</span> </h1>
+
+    <div class="row">
+
+        <div class="box">
+            <h3 class="title">coding skills</h3>
+            <div class="progress">
+                <h3> html <span>95%</span> </h3>
+                <div class="bar"><span></span></div>
+            </div>
+            <div class="progress">
+                <h3> css <span>85%</span> </h3>
+                <div class="bar"><span></span></div>
+            </div>
+            <div class="progress">
+                <h3> js <span>60%</span> </h3>
+                <div class="bar"><span></span></div>
+            </div>
+            <div class="progress">
+                <h3> Java <span>70%</span> </h3>
+                <div class="bar"><span></span></div>
+            </div>
+            <div class="progress">
+                <h3> Python <span>70%</span> </h3>
+                <div class="bar"><span></span></div>
+            </div>
+        </div>
+
+        <div class="box">
+            <h3 class="title">Education</h3>
+            <div class="exp-box">
+                <h3>COMPUTER SCIENCE & ENGINEERING UNDERGRADUATE</h3>
+                <p> I’m a B.TECH student at Swarnandhra College of Engineering and Technology,
+                    with a keen interest in cloud computing and web development. Proficient 
+                    in HTML, CSS, and JavaScript, I possess strong problem-solving abilities.
+                     Java is my primary language for coding and python is the another prefrence.</p>
+            </div>
+        </div>
+
+    <div class="download">
+        <a href="Pink Simple Profile Resume.pdf" class="btn"><center>download Resume</center>  </a>
+    </div>
+
+</section>
+
+
+
+</section>
+
+
+
+<section class="portfolio" id="portfolio">
+
+    <h1 class="heading"> <span>my</span> Portfolio </h1>
+
+    <div class="button-container">
+        <div class="btn" data-filter="all">All</div>
+        <div class="btn" data-filter="design">Projects</div>
+        <div class="btn" data-filter="code">Internships</div>
+        <div class="btn" data-filter="website">Website</div>
+    </div>
+
+    <div class="image-container">
+
+        <div class="box design">
+            <img src="https://www.ruralhealthpro.org/file-asset/buildhealth?v=1" alt="">
+            <div class="info">
+                <center>
+               <a href="CSP(16).pdf"> <h3>ORGANIC FARMING</h3></a></center>
+            </div>
+        </div>
+
+        <div class="box design">
+            <img src="https://tse2.mm.bing.net/th?id=OIP.DBRDLAgYUJXeX98Yhj9acQAAAA&pid=Api&P=0&h=180" alt="">
+            <div class="info">
+                <center>
+                <a href="https://github.com/Srinivas-katreddi/Railway-Reservation-System"><h3>RAILWAY RESERVATION SYSTEM USING UML</h3></a></center>
+            </div>
+        </div>
+
+        <div class="box design">
+            <img src="https://files.realpython.com/media/Make-a-Tic-Tac-Toe-Game-With-Python_Watermarked.d65b73a46d0d.jpg" alt="">
+            <div class="info">
+                <center><a href="https://srinivas-katreddi.github.io/TIC-TAC-TOE/TICTACTOE.html"><h3>TIC TAC TOE GAME</h3></a></center>
+            </div>
+        </div>
+
+        <div class="box code">
+            <img src="https://trietreelearning.com/wp-content/uploads/2022/06/AWS-Cloud-Foundation-1.jpg" alt="">
+            <div class="info">
+                <center><a href="AWS CLOUD COMPUTING.pdf"><h3>AWS CLOUD VIRTUAL INTERNSHIP </h3></a></center>
+            </div>
+        </div>
+
+        <div class="box code">
+            <img src="https://infocusfilmschool.com/wp-content/uploads/2021/04/Screen-Shot-2021-04-16-at-5.27.26-PM.png" alt="">
+            <div class="info">
+                <center><a href="Katreddi sai srinivas (1).pdf"><h3>WEB DEVELPMENT INTERNSHIP</h3></a></center>
+            </div>
+        </div>
+
+        <div class="box website">
+            <img src="https://static.vecteezy.com/system/resources/previews/000/702/086/non_2x/shopping-online-on-website-vector.jpg" alt="">
+            <div class="info">
+               <center><a href="https://srinivas-katreddi.github.io/Shopping/index.html"> <h3>ONLINE SHOPPING STORE</h3></a></center>
+            </div>
+        </div>
+    </div>    
+</section>
+
+
+<section class="contact" id="contact">
+
+    <h1 class="heading"> contact <span>me</span> </h1>
+
+    <div class="box-container">
+        
+        <div class="box">
+            <i class="fas fa-phone"></i>
+            <h3>Mobile</h3>
+            <p>7670883816</p>
+        </div>
+
+        <div class="box">
+            <i class="fas fa-envelope"></i>
+            <h3>Email ID</h3>
+            <p>krovvidikarthik@gmail.com</p>
+        </div>
+
+        <div class="box">
+            <i class="fas fa-map-marker-alt"></i>
+            <h3>Address</h3>
+            <p>Srungavruksham, Palakoderu Mandal, West Godavari Discrit, Andhra Pradesh, India</p>
+        </div>
+
+    </div>
+
+    <div class="row">
+
+        <form action="">
+            <div class="inputBox">
+                <input type="text" placeholder="name">
+                <input type="email" placeholder="email">
+            </div>
+            <input type="text" placeholder="subject">
+            <textarea name="" id="" cols="30" rows="10" placeholder="message"></textarea>
+            <button class="btn"> send message </button>
+        </form>
+    </div>
+</section>
+
+
+
+<div class="footer">created by <span> Coding Home </span> | all rights reserved!</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+<script src="script.js"></script>
+
 </body>
 </html>
